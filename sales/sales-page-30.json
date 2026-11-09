@@ -1,0 +1,5522 @@
+{
+  "pagination": {
+    "page": 30,
+    "page_size": 100,
+    "total_records": 5000,
+    "total_pages": 50,
+    "has_next": true,
+    "next_page": 31
+  },
+  "data": [
+    {
+      "ORDER": {
+        "ORDERID": 12901,
+        "ORDER_DATE_TIME": "2026-05-01T05:39:52Z",
+        "BILLING_DATE": "2026-05-01",
+        "BILLING_DOC": "INV-12901",
+        "CURRENCY": "INR",
+        "AMOUNT": 631796.6,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-05-01T05:39:52Z",
+        "UPDATED_DATE_TIME": "2026-05-01T05:39:52Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12901,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 165000.0
+        },
+        {
+          "ORDER_ID": 12901,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 130000.0
+        },
+        {
+          "ORDER_ID": 12901,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 271996.6
+        },
+        {
+          "ORDER_ID": 12901,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 64800.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12902,
+        "ORDER_DATE_TIME": "2026-10-19T07:21:23Z",
+        "BILLING_DATE": "2026-10-19",
+        "BILLING_DOC": "INV-12902",
+        "CURRENCY": "INR",
+        "AMOUNT": 292500.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-19T07:21:23Z",
+        "UPDATED_DATE_TIME": "2026-10-19T07:21:23Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12902,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 110500.0
+        },
+        {
+          "ORDER_ID": 12902,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 72000.0
+        },
+        {
+          "ORDER_ID": 12902,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12903,
+        "ORDER_DATE_TIME": "2026-07-24T17:06:51Z",
+        "BILLING_DATE": "2026-07-24",
+        "BILLING_DOC": "INV-12903",
+        "CURRENCY": "INR",
+        "AMOUNT": 195000.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-24T17:06:51Z",
+        "UPDATED_DATE_TIME": "2026-07-24T17:06:51Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12903,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 195000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12904,
+        "ORDER_DATE_TIME": "2026-09-06T02:23:31Z",
+        "BILLING_DATE": "2026-09-06",
+        "BILLING_DOC": "INV-12904",
+        "CURRENCY": "AUD",
+        "AMOUNT": 12370.86,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-06T02:23:31Z",
+        "UPDATED_DATE_TIME": "2026-09-06T02:23:31Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12904,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1545.45,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 5563.62
+        },
+        {
+          "ORDER_ID": 12904,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1636.35,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3272.7
+        },
+        {
+          "ORDER_ID": 12904,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1309.09,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 3534.54
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12905,
+        "ORDER_DATE_TIME": "2026-07-27T20:00:29Z",
+        "BILLING_DATE": "2026-07-27",
+        "BILLING_DOC": "INV-12905",
+        "CURRENCY": "USD",
+        "AMOUNT": 2039.15,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-27T20:00:29Z",
+        "UPDATED_DATE_TIME": "2026-07-27T20:00:29Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12905,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1409.63
+        },
+        {
+          "ORDER_ID": 12905,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 662.65,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 629.52
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12906,
+        "ORDER_DATE_TIME": "2026-10-17T05:31:11Z",
+        "BILLING_DATE": "2026-10-17",
+        "BILLING_DOC": "INV-12906",
+        "CURRENCY": "GBP",
+        "AMOUNT": 2336.66,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-17T05:31:11Z",
+        "UPDATED_DATE_TIME": "2026-10-22T02:26:04Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12906,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 685.71,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1748.56
+        },
+        {
+          "ORDER_ID": 12906,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 588.1
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12907,
+        "ORDER_DATE_TIME": "2026-05-19T01:16:27Z",
+        "BILLING_DATE": "2026-05-19",
+        "BILLING_DOC": "INV-12907",
+        "CURRENCY": "INR",
+        "AMOUNT": 370996.6,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-19T01:16:27Z",
+        "UPDATED_DATE_TIME": "2026-05-19T01:16:27Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12907,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 305996.6
+        },
+        {
+          "ORDER_ID": 12907,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 65000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12908,
+        "ORDER_DATE_TIME": "2026-07-07T04:15:46Z",
+        "BILLING_DATE": "2026-07-07",
+        "BILLING_DOC": "INV-12908",
+        "CURRENCY": "EUR",
+        "AMOUNT": 5005.53,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-07T04:15:46Z",
+        "UPDATED_DATE_TIME": "2026-07-07T04:15:46Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12908,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3777.76
+        },
+        {
+          "ORDER_ID": 12908,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 722.22,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1227.77
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12909,
+        "ORDER_DATE_TIME": "2026-10-04T15:07:56Z",
+        "BILLING_DATE": "2026-10-04",
+        "BILLING_DOC": "INV-12909",
+        "CURRENCY": "INR",
+        "AMOUNT": 342000.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-10-04T15:07:56Z",
+        "UPDATED_DATE_TIME": "2026-10-04T15:07:56Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12909,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 68400.0
+        },
+        {
+          "ORDER_ID": 12909,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 273600.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12910,
+        "ORDER_DATE_TIME": "2026-10-06T23:50:23Z",
+        "BILLING_DATE": "2026-10-06",
+        "BILLING_DOC": "INV-12910",
+        "CURRENCY": "INR",
+        "AMOUNT": 198000.0,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-06T23:50:23Z",
+        "UPDATED_DATE_TIME": "2026-10-09T12:35:08Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12910,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12911,
+        "ORDER_DATE_TIME": "2026-09-20T09:35:14Z",
+        "BILLING_DATE": "2026-09-20",
+        "BILLING_DOC": "INV-12911",
+        "CURRENCY": "INR",
+        "AMOUNT": 126000.0,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-20T09:35:14Z",
+        "UPDATED_DATE_TIME": "2026-09-20T09:35:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12911,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 72000.0
+        },
+        {
+          "ORDER_ID": 12911,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 54000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12912,
+        "ORDER_DATE_TIME": "2026-07-14T00:30:22Z",
+        "BILLING_DATE": "2026-07-14",
+        "BILLING_DOC": "INV-12912",
+        "CURRENCY": "AUD",
+        "AMOUNT": 11619.95,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-14T00:30:22Z",
+        "UPDATED_DATE_TIME": "2026-07-14T09:48:52Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12912,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1181.82,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2127.28
+        },
+        {
+          "ORDER_ID": 12912,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 883.63
+        },
+        {
+          "ORDER_ID": 12912,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1454.53,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 4363.59
+        },
+        {
+          "ORDER_ID": 12912,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1545.45,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1545.45
+        },
+        {
+          "ORDER_ID": 12912,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2700.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12913,
+        "ORDER_DATE_TIME": "2026-08-09T20:09:35Z",
+        "BILLING_DATE": "2026-08-09",
+        "BILLING_DOC": "INV-12913",
+        "CURRENCY": "INR",
+        "AMOUNT": 110000.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-09T20:09:35Z",
+        "UPDATED_DATE_TIME": "2026-08-09T20:09:35Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12913,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12914,
+        "ORDER_DATE_TIME": "2026-05-29T06:46:15Z",
+        "BILLING_DATE": "2026-05-29",
+        "BILLING_DOC": "INV-12914",
+        "CURRENCY": "INR",
+        "AMOUNT": 945996.6,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-29T06:46:15Z",
+        "UPDATED_DATE_TIME": "2026-05-29T06:46:15Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12914,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 271996.6
+        },
+        {
+          "ORDER_ID": 12914,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 234000.0
+        },
+        {
+          "ORDER_ID": 12914,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 440000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12915,
+        "ORDER_DATE_TIME": "2026-09-02T09:03:20Z",
+        "BILLING_DATE": "2026-09-02",
+        "BILLING_DOC": "INV-12915",
+        "CURRENCY": "AUD",
+        "AMOUNT": 5454.54,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-02T09:03:20Z",
+        "UPDATED_DATE_TIME": "2026-09-02T09:03:20Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12915,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1545.45,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3090.9
+        },
+        {
+          "ORDER_ID": 12915,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1181.82,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2363.64
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12916,
+        "ORDER_DATE_TIME": "2026-09-10T23:26:50Z",
+        "BILLING_DATE": "2026-09-10",
+        "BILLING_DOC": "INV-12916",
+        "CURRENCY": "INR",
+        "AMOUNT": 497195.4,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-10T23:26:50Z",
+        "UPDATED_DATE_TIME": "2026-09-10T23:26:50Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12916,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 287996.4
+        },
+        {
+          "ORDER_ID": 12916,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 89999.0
+        },
+        {
+          "ORDER_ID": 12916,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 34200.0
+        },
+        {
+          "ORDER_ID": 12916,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 85000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12917,
+        "ORDER_DATE_TIME": "2026-05-14T03:35:50Z",
+        "BILLING_DATE": "2026-05-14",
+        "BILLING_DOC": "INV-12917",
+        "CURRENCY": "USD",
+        "AMOUNT": 19440.89,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-14T03:35:50Z",
+        "UPDATED_DATE_TIME": "2026-05-14T03:35:50Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12917,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1325.3,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 4506.02
+        },
+        {
+          "ORDER_ID": 12917,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 963.84,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3855.36
+        },
+        {
+          "ORDER_ID": 12917,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 867.47,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 3296.39
+        },
+        {
+          "ORDER_ID": 12917,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1084.33,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 3686.72
+        },
+        {
+          "ORDER_ID": 12917,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1024.1,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 4096.4
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12918,
+        "ORDER_DATE_TIME": "2026-08-21T04:23:57Z",
+        "BILLING_DATE": "2026-08-21",
+        "BILLING_DOC": "INV-12918",
+        "CURRENCY": "INR",
+        "AMOUNT": 271996.6,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-21T04:23:57Z",
+        "UPDATED_DATE_TIME": "2026-08-21T04:23:57Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12918,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 271996.6
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12919,
+        "ORDER_DATE_TIME": "2026-11-01T02:48:30Z",
+        "BILLING_DATE": "2026-11-01",
+        "BILLING_DOC": "INV-12919",
+        "CURRENCY": "INR",
+        "AMOUNT": 72000.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-01T02:48:30Z",
+        "UPDATED_DATE_TIME": "2026-11-01T02:48:30Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12919,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 72000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12920,
+        "ORDER_DATE_TIME": "2026-11-01T17:41:49Z",
+        "BILLING_DATE": "2026-11-01",
+        "BILLING_DOC": "INV-12920",
+        "CURRENCY": "INR",
+        "AMOUNT": 110000.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-01T17:41:49Z",
+        "UPDATED_DATE_TIME": "2026-11-01T17:41:49Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12920,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12921,
+        "ORDER_DATE_TIME": "2026-05-28T01:55:13Z",
+        "BILLING_DATE": "2026-05-28",
+        "BILLING_DOC": "INV-12921",
+        "CURRENCY": "GBP",
+        "AMOUNT": 685.71,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-28T01:55:13Z",
+        "UPDATED_DATE_TIME": "2026-05-28T01:55:13Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12921,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 685.71,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 685.71
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12922,
+        "ORDER_DATE_TIME": "2026-10-21T21:10:33Z",
+        "BILLING_DATE": "2026-10-21",
+        "BILLING_DOC": "INV-12922",
+        "CURRENCY": "INR",
+        "AMOUNT": 763396.6,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-10-21T21:10:33Z",
+        "UPDATED_DATE_TIME": "2026-10-21T21:10:33Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12922,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 305996.6
+        },
+        {
+          "ORDER_ID": 12922,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 144500.0
+        },
+        {
+          "ORDER_ID": 12922,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 32400.0
+        },
+        {
+          "ORDER_ID": 12922,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 280500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12923,
+        "ORDER_DATE_TIME": "2026-07-09T04:10:11Z",
+        "BILLING_DATE": "2026-07-09",
+        "BILLING_DOC": "INV-12923",
+        "CURRENCY": "INR",
+        "AMOUNT": 327750.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-09T04:10:11Z",
+        "UPDATED_DATE_TIME": "2026-07-09T04:10:11Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12923,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 46750.0
+        },
+        {
+          "ORDER_ID": 12923,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        },
+        {
+          "ORDER_ID": 12923,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 65000.0
+        },
+        {
+          "ORDER_ID": 12923,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 18000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12924,
+        "ORDER_DATE_TIME": "2026-08-19T09:16:10Z",
+        "BILLING_DATE": "2026-08-19",
+        "BILLING_DOC": "INV-12924",
+        "CURRENCY": "INR",
+        "AMOUNT": 863748.3,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-19T09:16:10Z",
+        "UPDATED_DATE_TIME": "2026-08-19T09:16:10Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12924,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 289000.0
+        },
+        {
+          "ORDER_ID": 12924,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 247000.0
+        },
+        {
+          "ORDER_ID": 12924,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 152998.3
+        },
+        {
+          "ORDER_ID": 12924,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 18000.0
+        },
+        {
+          "ORDER_ID": 12924,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 156750.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12925,
+        "ORDER_DATE_TIME": "2026-09-29T00:52:58Z",
+        "BILLING_DATE": "2026-09-29",
+        "BILLING_DOC": "INV-12925",
+        "CURRENCY": "GBP",
+        "AMOUNT": 4747.61,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-09-29T00:52:58Z",
+        "UPDATED_DATE_TIME": "2026-09-29T00:52:58Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12925,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 809.52,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 3076.18
+        },
+        {
+          "ORDER_ID": 12925,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1671.43
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12926,
+        "ORDER_DATE_TIME": "2026-10-31T03:48:05Z",
+        "BILLING_DATE": "2026-10-31",
+        "BILLING_DOC": "INV-12926",
+        "CURRENCY": "GBP",
+        "AMOUNT": 4864.74,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-31T03:48:05Z",
+        "UPDATED_DATE_TIME": "2026-10-31T03:48:05Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12926,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 651.43
+        },
+        {
+          "ORDER_ID": 12926,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 685.71,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1165.71
+        },
+        {
+          "ORDER_ID": 12926,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 761.9,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3047.6
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12927,
+        "ORDER_DATE_TIME": "2026-08-11T18:41:13Z",
+        "BILLING_DATE": "2026-08-11",
+        "BILLING_DOC": "INV-12927",
+        "CURRENCY": "INR",
+        "AMOUNT": 472599.05,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-11T18:41:13Z",
+        "UPDATED_DATE_TIME": "2026-08-11T18:41:13Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12927,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 104500.0
+        },
+        {
+          "ORDER_ID": 12927,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 153000.0
+        },
+        {
+          "ORDER_ID": 12927,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 129600.0
+        },
+        {
+          "ORDER_ID": 12927,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 85499.05
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12928,
+        "ORDER_DATE_TIME": "2026-07-16T04:36:09Z",
+        "BILLING_DATE": "2026-07-16",
+        "BILLING_DOC": "INV-12928",
+        "CURRENCY": "INR",
+        "AMOUNT": 185250.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-16T04:36:09Z",
+        "UPDATED_DATE_TIME": "2026-07-16T04:36:09Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12928,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 185250.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12929,
+        "ORDER_DATE_TIME": "2026-07-27T05:02:54Z",
+        "BILLING_DATE": "2026-07-27",
+        "BILLING_DOC": "INV-12929",
+        "CURRENCY": "USD",
+        "AMOUNT": 6412.03,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-27T05:02:54Z",
+        "UPDATED_DATE_TIME": "2026-07-27T05:02:54Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12929,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1024.1,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3072.3
+        },
+        {
+          "ORDER_ID": 12929,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 963.84,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2602.37
+        },
+        {
+          "ORDER_ID": 12929,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 216.87,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 737.36
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12930,
+        "ORDER_DATE_TIME": "2026-09-12T16:20:25Z",
+        "BILLING_DATE": "2026-09-12",
+        "BILLING_DOC": "INV-12930",
+        "CURRENCY": "INR",
+        "AMOUNT": 1251296.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-12T16:20:25Z",
+        "UPDATED_DATE_TIME": "2026-09-12T16:20:25Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12930,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 216000.0
+        },
+        {
+          "ORDER_ID": 12930,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 220000.0
+        },
+        {
+          "ORDER_ID": 12930,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 15300.0
+        },
+        {
+          "ORDER_ID": 12930,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 440000.0
+        },
+        {
+          "ORDER_ID": 12930,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 359996.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12931,
+        "ORDER_DATE_TIME": "2026-06-17T21:56:40Z",
+        "BILLING_DATE": "2026-06-17",
+        "BILLING_DOC": "INV-12931",
+        "CURRENCY": "EUR",
+        "AMOUNT": 580.55,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-17T21:56:40Z",
+        "UPDATED_DATE_TIME": "2026-06-17T21:56:40Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12931,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 611.11,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 580.55
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12932,
+        "ORDER_DATE_TIME": "2026-07-10T22:34:45Z",
+        "BILLING_DATE": "2026-07-10",
+        "BILLING_DOC": "INV-12932",
+        "CURRENCY": "INR",
+        "AMOUNT": 499699.15,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-10T22:34:45Z",
+        "UPDATED_DATE_TIME": "2026-07-10T22:34:45Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12932,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 76499.15
+        },
+        {
+          "ORDER_ID": 12932,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 313500.0
+        },
+        {
+          "ORDER_ID": 12932,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 16200.0
+        },
+        {
+          "ORDER_ID": 12932,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 93500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12933,
+        "ORDER_DATE_TIME": "2026-08-03T05:48:04Z",
+        "BILLING_DATE": "2026-08-03",
+        "BILLING_DOC": "INV-12933",
+        "CURRENCY": "INR",
+        "AMOUNT": 511298.0,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-03T05:48:04Z",
+        "UPDATED_DATE_TIME": "2026-08-03T05:48:04Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12933,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 32400.0
+        },
+        {
+          "ORDER_ID": 12933,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 179998.0
+        },
+        {
+          "ORDER_ID": 12933,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 194400.0
+        },
+        {
+          "ORDER_ID": 12933,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 104500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12934,
+        "ORDER_DATE_TIME": "2026-05-05T04:07:27Z",
+        "BILLING_DATE": "2026-05-05",
+        "BILLING_DOC": "INV-12934",
+        "CURRENCY": "EUR",
+        "AMOUNT": 7777.76,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-05-05T04:07:27Z",
+        "UPDATED_DATE_TIME": "2026-05-05T04:07:27Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12934,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3777.76
+        },
+        {
+          "ORDER_ID": 12934,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 200.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 800.0
+        },
+        {
+          "ORDER_ID": 12934,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 800.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3200.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12935,
+        "ORDER_DATE_TIME": "2026-05-16T17:18:45Z",
+        "BILLING_DATE": "2026-05-16",
+        "BILLING_DOC": "INV-12935",
+        "CURRENCY": "INR",
+        "AMOUNT": 439048.2,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-16T17:18:45Z",
+        "UPDATED_DATE_TIME": "2026-05-16T17:18:45Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12935,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 140250.0
+        },
+        {
+          "ORDER_ID": 12935,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 136800.0
+        },
+        {
+          "ORDER_ID": 12935,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 161998.2
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12936,
+        "ORDER_DATE_TIME": "2026-06-07T19:03:24Z",
+        "BILLING_DATE": "2026-06-07",
+        "BILLING_DOC": "INV-12936",
+        "CURRENCY": "INR",
+        "AMOUNT": 543597.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-07T19:03:24Z",
+        "UPDATED_DATE_TIME": "2026-06-07T19:03:24Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12936,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 273600.0
+        },
+        {
+          "ORDER_ID": 12936,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 269997.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12937,
+        "ORDER_DATE_TIME": "2026-06-05T16:55:56Z",
+        "BILLING_DATE": "2026-06-05",
+        "BILLING_DOC": "INV-12937",
+        "CURRENCY": "GBP",
+        "AMOUNT": 3402.82,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-05T16:55:56Z",
+        "UPDATED_DATE_TIME": "2026-06-05T16:55:56Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12937,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 488.58
+        },
+        {
+          "ORDER_ID": 12937,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 857.13,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 2914.24
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12938,
+        "ORDER_DATE_TIME": "2026-07-16T04:49:35Z",
+        "BILLING_DATE": "2026-07-16",
+        "BILLING_DOC": "INV-12938",
+        "CURRENCY": "GBP",
+        "AMOUNT": 4738.1,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-16T04:49:35Z",
+        "UPDATED_DATE_TIME": "2026-07-16T04:49:35Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12938,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1047.62,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 3561.91
+        },
+        {
+          "ORDER_ID": 12938,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1176.19
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12939,
+        "ORDER_DATE_TIME": "2026-10-31T08:26:31Z",
+        "BILLING_DATE": "2026-10-31",
+        "BILLING_DOC": "INV-12939",
+        "CURRENCY": "INR",
+        "AMOUNT": 1013698.2,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-31T08:26:31Z",
+        "UPDATED_DATE_TIME": "2026-10-31T08:26:31Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12939,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 440000.0
+        },
+        {
+          "ORDER_ID": 12939,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 220000.0
+        },
+        {
+          "ORDER_ID": 12939,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 161998.2
+        },
+        {
+          "ORDER_ID": 12939,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 16200.0
+        },
+        {
+          "ORDER_ID": 12939,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 175500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12940,
+        "ORDER_DATE_TIME": "2026-06-17T00:21:00Z",
+        "BILLING_DATE": "2026-06-17",
+        "BILLING_DOC": "INV-12940",
+        "CURRENCY": "INR",
+        "AMOUNT": 798198.3,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-17T00:21:00Z",
+        "UPDATED_DATE_TIME": "2026-06-17T00:21:00Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12940,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 440000.0
+        },
+        {
+          "ORDER_ID": 12940,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 152998.3
+        },
+        {
+          "ORDER_ID": 12940,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 205200.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12941,
+        "ORDER_DATE_TIME": "2026-10-26T04:08:20Z",
+        "BILLING_DATE": "2026-10-26",
+        "BILLING_DOC": "INV-12941",
+        "CURRENCY": "INR",
+        "AMOUNT": 472494.45,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-10-26T04:08:20Z",
+        "UPDATED_DATE_TIME": "2026-10-26T04:08:20Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12941,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 215997.3
+        },
+        {
+          "ORDER_ID": 12941,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 256497.15
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12942,
+        "ORDER_DATE_TIME": "2026-07-04T22:18:51Z",
+        "BILLING_DATE": "2026-07-04",
+        "BILLING_DOC": "INV-12942",
+        "CURRENCY": "AUD",
+        "AMOUNT": 6990.9,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-04T22:18:51Z",
+        "UPDATED_DATE_TIME": "2026-07-04T22:18:51Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12942,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 278.18
+        },
+        {
+          "ORDER_ID": 12942,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2000.0
+        },
+        {
+          "ORDER_ID": 12942,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1309.09,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 4712.72
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12943,
+        "ORDER_DATE_TIME": "2026-10-08T00:28:14Z",
+        "BILLING_DATE": "2026-10-08",
+        "BILLING_DOC": "INV-12943",
+        "CURRENCY": "GBP",
+        "AMOUNT": 2095.24,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-08T00:28:14Z",
+        "UPDATED_DATE_TIME": "2026-10-08T00:28:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12943,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 523.81,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2095.24
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12944,
+        "ORDER_DATE_TIME": "2026-08-20T04:59:35Z",
+        "BILLING_DATE": "2026-08-20",
+        "BILLING_DOC": "INV-12944",
+        "CURRENCY": "INR",
+        "AMOUNT": 549349.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-20T04:59:35Z",
+        "UPDATED_DATE_TIME": "2026-08-20T04:59:35Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12944,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 89999.0
+        },
+        {
+          "ORDER_ID": 12944,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 330000.0
+        },
+        {
+          "ORDER_ID": 12944,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 80750.0
+        },
+        {
+          "ORDER_ID": 12944,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 48600.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12945,
+        "ORDER_DATE_TIME": "2026-07-27T05:35:58Z",
+        "BILLING_DATE": "2026-07-27",
+        "BILLING_DOC": "INV-12945",
+        "CURRENCY": "INR",
+        "AMOUNT": 817597.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-27T05:35:58Z",
+        "UPDATED_DATE_TIME": "2026-07-27T05:35:58Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12945,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 129600.0
+        },
+        {
+          "ORDER_ID": 12945,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 418000.0
+        },
+        {
+          "ORDER_ID": 12945,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 269997.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12946,
+        "ORDER_DATE_TIME": "2026-08-22T00:53:56Z",
+        "BILLING_DATE": "2026-08-22",
+        "BILLING_DOC": "INV-12946",
+        "CURRENCY": "INR",
+        "AMOUNT": 1092396.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-22T00:53:56Z",
+        "UPDATED_DATE_TIME": "2026-08-22T00:53:56Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12946,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 234000.0
+        },
+        {
+          "ORDER_ID": 12946,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 122400.0
+        },
+        {
+          "ORDER_ID": 12946,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 306000.0
+        },
+        {
+          "ORDER_ID": 12946,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 319996.0
+        },
+        {
+          "ORDER_ID": 12946,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12947,
+        "ORDER_DATE_TIME": "2026-05-19T04:06:45Z",
+        "BILLING_DATE": "2026-05-19",
+        "BILLING_DOC": "INV-12947",
+        "CURRENCY": "USD",
+        "AMOUNT": 4526.51,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-19T04:06:45Z",
+        "UPDATED_DATE_TIME": "2026-05-19T04:06:45Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12947,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1084.33,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 921.68
+        },
+        {
+          "ORDER_ID": 12947,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1024.1,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1024.1
+        },
+        {
+          "ORDER_ID": 12947,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 867.47,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 2212.05
+        },
+        {
+          "ORDER_ID": 12947,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 216.87,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 368.68
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12948,
+        "ORDER_DATE_TIME": "2026-10-03T23:31:55Z",
+        "BILLING_DATE": "2026-10-03",
+        "BILLING_DOC": "INV-12948",
+        "CURRENCY": "INR",
+        "AMOUNT": 729199.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-03T23:31:55Z",
+        "UPDATED_DATE_TIME": "2026-10-03T23:31:55Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12948,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 170000.0
+        },
+        {
+          "ORDER_ID": 12948,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 220000.0
+        },
+        {
+          "ORDER_ID": 12948,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 79999.0
+        },
+        {
+          "ORDER_ID": 12948,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 259200.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12949,
+        "ORDER_DATE_TIME": "2026-07-26T00:44:38Z",
+        "BILLING_DATE": "2026-07-26",
+        "BILLING_DOC": "INV-12949",
+        "CURRENCY": "INR",
+        "AMOUNT": 281998.1,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-26T00:44:38Z",
+        "UPDATED_DATE_TIME": "2026-07-26T00:44:38Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12949,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 130000.0
+        },
+        {
+          "ORDER_ID": 12949,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 151998.1
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12950,
+        "ORDER_DATE_TIME": "2026-09-17T00:36:37Z",
+        "BILLING_DATE": "2026-09-17",
+        "BILLING_DOC": "INV-12950",
+        "CURRENCY": "INR",
+        "AMOUNT": 609399.15,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-17T00:36:37Z",
+        "UPDATED_DATE_TIME": "2026-09-17T00:36:37Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12950,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 45900.0
+        },
+        {
+          "ORDER_ID": 12950,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 76499.15
+        },
+        {
+          "ORDER_ID": 12950,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        },
+        {
+          "ORDER_ID": 12950,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 289000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12951,
+        "ORDER_DATE_TIME": "2026-09-19T14:11:39Z",
+        "BILLING_DATE": "2026-09-19",
+        "BILLING_DOC": "INV-12951",
+        "CURRENCY": "INR",
+        "AMOUNT": 837496.6,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-19T14:11:39Z",
+        "UPDATED_DATE_TIME": "2026-09-19T14:11:39Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12951,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 195000.0
+        },
+        {
+          "ORDER_ID": 12951,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 271996.6
+        },
+        {
+          "ORDER_ID": 12951,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        },
+        {
+          "ORDER_ID": 12951,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 161500.0
+        },
+        {
+          "ORDER_ID": 12951,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 99000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12952,
+        "ORDER_DATE_TIME": "2026-10-21T19:26:59Z",
+        "BILLING_DATE": "2026-10-21",
+        "BILLING_DOC": "INV-12952",
+        "CURRENCY": "AUD",
+        "AMOUNT": 10041.75,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-21T19:26:59Z",
+        "UPDATED_DATE_TIME": "2026-10-21T19:26:59Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12952,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1636.35,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1472.71
+        },
+        {
+          "ORDER_ID": 12952,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1454.53,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 3709.05
+        },
+        {
+          "ORDER_ID": 12952,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1309.09,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3927.27
+        },
+        {
+          "ORDER_ID": 12952,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 932.72
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12953,
+        "ORDER_DATE_TIME": "2026-10-13T10:41:49Z",
+        "BILLING_DATE": "2026-10-13",
+        "BILLING_DOC": "INV-12953",
+        "CURRENCY": "INR",
+        "AMOUNT": 213198.1,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-13T10:41:49Z",
+        "UPDATED_DATE_TIME": "2026-10-13T10:41:49Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12953,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 151998.1
+        },
+        {
+          "ORDER_ID": 12953,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 61200.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12954,
+        "ORDER_DATE_TIME": "2026-07-21T02:53:56Z",
+        "BILLING_DATE": "2026-07-21",
+        "BILLING_DOC": "INV-12954",
+        "CURRENCY": "AUD",
+        "AMOUNT": 14596.3,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-07-21T02:53:56Z",
+        "UPDATED_DATE_TIME": "2026-07-21T02:53:56Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12954,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 932.72
+        },
+        {
+          "ORDER_ID": 12954,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1545.45,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3090.9
+        },
+        {
+          "ORDER_ID": 12954,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1636.35,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 6545.4
+        },
+        {
+          "ORDER_ID": 12954,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1900.0
+        },
+        {
+          "ORDER_ID": 12954,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1181.82,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2127.28
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12955,
+        "ORDER_DATE_TIME": "2026-08-14T14:33:41Z",
+        "BILLING_DATE": "2026-08-14",
+        "BILLING_DOC": "INV-12955",
+        "CURRENCY": "AUD",
+        "AMOUNT": 11209.08,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-14T14:33:41Z",
+        "UPDATED_DATE_TIME": "2026-08-14T14:33:41Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12955,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1309.08
+        },
+        {
+          "ORDER_ID": 12955,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2700.0
+        },
+        {
+          "ORDER_ID": 12955,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 2000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 7200.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12956,
+        "ORDER_DATE_TIME": "2026-05-17T18:38:29Z",
+        "BILLING_DATE": "2026-05-17",
+        "BILLING_DOC": "INV-12956",
+        "CURRENCY": "EUR",
+        "AMOUNT": 600.0,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-05-17T18:38:29Z",
+        "UPDATED_DATE_TIME": "2026-06-06T18:17:43Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12956,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 200.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 600.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12957,
+        "ORDER_DATE_TIME": "2026-09-14T14:11:56Z",
+        "BILLING_DATE": "2026-09-14",
+        "BILLING_DOC": "INV-12957",
+        "CURRENCY": "INR",
+        "AMOUNT": 409999.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-14T14:11:56Z",
+        "UPDATED_DATE_TIME": "2026-09-14T14:11:56Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12957,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 79999.0
+        },
+        {
+          "ORDER_ID": 12957,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 330000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12958,
+        "ORDER_DATE_TIME": "2026-07-19T15:11:15Z",
+        "BILLING_DATE": "2026-07-19",
+        "BILLING_DOC": "INV-12958",
+        "CURRENCY": "INR",
+        "AMOUNT": 188999.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-19T15:11:15Z",
+        "UPDATED_DATE_TIME": "2026-07-19T15:11:15Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12958,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 89999.0
+        },
+        {
+          "ORDER_ID": 12958,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 99000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12959,
+        "ORDER_DATE_TIME": "2026-09-06T21:52:49Z",
+        "BILLING_DATE": "2026-09-06",
+        "BILLING_DOC": "INV-12959",
+        "CURRENCY": "USD",
+        "AMOUNT": 4271.07,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-06T21:52:49Z",
+        "UPDATED_DATE_TIME": "2026-09-06T21:52:49Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12959,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 704.82
+        },
+        {
+          "ORDER_ID": 12959,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 963.84,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 915.65
+        },
+        {
+          "ORDER_ID": 12959,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1325.3,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2650.6
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12960,
+        "ORDER_DATE_TIME": "2026-08-29T23:05:43Z",
+        "BILLING_DATE": "2026-08-29",
+        "BILLING_DOC": "INV-12960",
+        "CURRENCY": "EUR",
+        "AMOUNT": 2549.99,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-29T23:05:43Z",
+        "UPDATED_DATE_TIME": "2026-08-29T23:05:43Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12960,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2549.99
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12961,
+        "ORDER_DATE_TIME": "2026-08-29T17:00:52Z",
+        "BILLING_DATE": "2026-08-29",
+        "BILLING_DOC": "INV-12961",
+        "CURRENCY": "INR",
+        "AMOUNT": 122400.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-29T17:00:52Z",
+        "UPDATED_DATE_TIME": "2026-08-29T17:00:52Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12961,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 122400.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12962,
+        "ORDER_DATE_TIME": "2026-10-28T17:48:44Z",
+        "BILLING_DATE": "2026-10-28",
+        "BILLING_DOC": "INV-12962",
+        "CURRENCY": "GBP",
+        "AMOUNT": 6070.47,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-28T17:48:44Z",
+        "UPDATED_DATE_TIME": "2026-10-28T17:48:44Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12962,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 651.43
+        },
+        {
+          "ORDER_ID": 12962,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 809.52,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2914.27
+        },
+        {
+          "ORDER_ID": 12962,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 619.05
+        },
+        {
+          "ORDER_ID": 12962,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 523.81,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1885.72
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12963,
+        "ORDER_DATE_TIME": "2026-11-06T06:27:52Z",
+        "BILLING_DATE": "2026-11-06",
+        "BILLING_DOC": "INV-12963",
+        "CURRENCY": "AUD",
+        "AMOUNT": 5446.35,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-06T06:27:52Z",
+        "UPDATED_DATE_TIME": "2026-11-06T06:27:52Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12963,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 327.27
+        },
+        {
+          "ORDER_ID": 12963,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1636.35,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1390.9
+        },
+        {
+          "ORDER_ID": 12963,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 2550.0
+        },
+        {
+          "ORDER_ID": 12963,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 1309.09,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1178.18
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12964,
+        "ORDER_DATE_TIME": "2026-09-26T01:59:59Z",
+        "BILLING_DATE": "2026-09-26",
+        "BILLING_DOC": "INV-12964",
+        "CURRENCY": "GBP",
+        "AMOUNT": 1750.01,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-26T01:59:59Z",
+        "UPDATED_DATE_TIME": "2026-09-26T01:59:59Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12964,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1578.58
+        },
+        {
+          "ORDER_ID": 12964,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 171.43
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12965,
+        "ORDER_DATE_TIME": "2026-06-07T03:34:54Z",
+        "BILLING_DATE": "2026-06-07",
+        "BILLING_DOC": "INV-12965",
+        "CURRENCY": "INR",
+        "AMOUNT": 547500.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-06-07T03:34:54Z",
+        "UPDATED_DATE_TIME": "2026-06-07T03:34:54Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12965,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 52250.0
+        },
+        {
+          "ORDER_ID": 12965,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 440000.0
+        },
+        {
+          "ORDER_ID": 12965,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 55250.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12966,
+        "ORDER_DATE_TIME": "2026-06-16T06:23:47Z",
+        "BILLING_DATE": "2026-06-16",
+        "BILLING_DOC": "INV-12966",
+        "CURRENCY": "INR",
+        "AMOUNT": 420998.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-16T06:23:47Z",
+        "UPDATED_DATE_TIME": "2026-06-16T06:23:47Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12966,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 187000.0
+        },
+        {
+          "ORDER_ID": 12966,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 54000.0
+        },
+        {
+          "ORDER_ID": 12966,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 179998.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12967,
+        "ORDER_DATE_TIME": "2026-06-13T01:24:31Z",
+        "BILLING_DATE": "2026-06-13",
+        "BILLING_DOC": "INV-12967",
+        "CURRENCY": "GBP",
+        "AMOUNT": 1052.38,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-06-13T01:24:31Z",
+        "UPDATED_DATE_TIME": "2026-06-16T03:34:01Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12967,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1052.38
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12968,
+        "ORDER_DATE_TIME": "2026-09-05T03:01:32Z",
+        "BILLING_DATE": "2026-09-05",
+        "BILLING_DOC": "INV-12968",
+        "CURRENCY": "INR",
+        "AMOUNT": 918745.15,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-09-05T03:01:32Z",
+        "UPDATED_DATE_TIME": "2026-09-05T03:01:32Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12968,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 209000.0
+        },
+        {
+          "ORDER_ID": 12968,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 61750.0
+        },
+        {
+          "ORDER_ID": 12968,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 359996.0
+        },
+        {
+          "ORDER_ID": 12968,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 67999.15
+        },
+        {
+          "ORDER_ID": 12968,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 220000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12969,
+        "ORDER_DATE_TIME": "2026-11-03T05:46:20Z",
+        "BILLING_DATE": "2026-11-03",
+        "BILLING_DOC": "INV-12969",
+        "CURRENCY": "GBP",
+        "AMOUNT": 617.15,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-11-03T05:46:20Z",
+        "UPDATED_DATE_TIME": "2026-11-03T05:46:20Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12969,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 617.15
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12970,
+        "ORDER_DATE_TIME": "2026-08-11T02:10:23Z",
+        "BILLING_DATE": "2026-08-11",
+        "BILLING_DOC": "INV-12970",
+        "CURRENCY": "INR",
+        "AMOUNT": 269000.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-11T02:10:23Z",
+        "UPDATED_DATE_TIME": "2026-08-11T02:10:23Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12970,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 93500.0
+        },
+        {
+          "ORDER_ID": 12970,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 175500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12971,
+        "ORDER_DATE_TIME": "2026-05-04T22:12:19Z",
+        "BILLING_DATE": "2026-05-04",
+        "BILLING_DOC": "INV-12971",
+        "CURRENCY": "EUR",
+        "AMOUNT": 10842.71,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-04T22:12:19Z",
+        "UPDATED_DATE_TIME": "2026-05-04T22:12:19Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12971,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 2266.64
+        },
+        {
+          "ORDER_ID": 12971,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 611.11,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1741.66
+        },
+        {
+          "ORDER_ID": 12971,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 944.44
+        },
+        {
+          "ORDER_ID": 12971,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 800.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 3040.0
+        },
+        {
+          "ORDER_ID": 12971,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 999.99,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 2849.97
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12972,
+        "ORDER_DATE_TIME": "2026-10-07T10:35:17Z",
+        "BILLING_DATE": "2026-10-07",
+        "BILLING_DOC": "INV-12972",
+        "CURRENCY": "EUR",
+        "AMOUNT": 9916.63,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-07T10:35:17Z",
+        "UPDATED_DATE_TIME": "2026-10-07T10:35:17Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12972,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 944.44
+        },
+        {
+          "ORDER_ID": 12972,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 722.22,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1372.22
+        },
+        {
+          "ORDER_ID": 12972,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 2399.98
+        },
+        {
+          "ORDER_ID": 12972,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1222.22,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 4399.99
+        },
+        {
+          "ORDER_ID": 12972,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 200.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 800.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12973,
+        "ORDER_DATE_TIME": "2026-05-04T18:39:48Z",
+        "BILLING_DATE": "2026-05-04",
+        "BILLING_DOC": "INV-12973",
+        "CURRENCY": "INR",
+        "AMOUNT": 71999.1,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-05-04T18:39:48Z",
+        "UPDATED_DATE_TIME": "2026-05-05T21:09:23Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12973,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 71999.1
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12974,
+        "ORDER_DATE_TIME": "2026-10-10T22:19:48Z",
+        "BILLING_DATE": "2026-10-10",
+        "BILLING_DOC": "INV-12974",
+        "CURRENCY": "INR",
+        "AMOUNT": 677350.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-10T22:19:48Z",
+        "UPDATED_DATE_TIME": "2026-10-10T22:19:48Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12974,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 17100.0
+        },
+        {
+          "ORDER_ID": 12974,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 242250.0
+        },
+        {
+          "ORDER_ID": 12974,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        },
+        {
+          "ORDER_ID": 12974,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 220000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12975,
+        "ORDER_DATE_TIME": "2026-08-15T02:14:31Z",
+        "BILLING_DATE": "2026-08-15",
+        "BILLING_DOC": "INV-12975",
+        "CURRENCY": "INR",
+        "AMOUNT": 51300.0,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-15T02:14:31Z",
+        "UPDATED_DATE_TIME": "2026-08-15T02:14:31Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12975,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 51300.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12976,
+        "ORDER_DATE_TIME": "2026-07-06T16:34:32Z",
+        "BILLING_DATE": "2026-07-06",
+        "BILLING_DOC": "INV-12976",
+        "CURRENCY": "GBP",
+        "AMOUNT": 1234.28,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-07-06T16:34:32Z",
+        "UPDATED_DATE_TIME": "2026-07-06T16:34:32Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12976,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 685.71,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 1234.28
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12977,
+        "ORDER_DATE_TIME": "2026-05-29T02:23:52Z",
+        "BILLING_DATE": "2026-05-29",
+        "BILLING_DOC": "INV-12977",
+        "CURRENCY": "INR",
+        "AMOUNT": 794048.3,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-29T02:23:52Z",
+        "UPDATED_DATE_TIME": "2026-05-29T02:23:52Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12977,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 340000.0
+        },
+        {
+          "ORDER_ID": 12977,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 64800.0
+        },
+        {
+          "ORDER_ID": 12977,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        },
+        {
+          "ORDER_ID": 12977,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 135998.3
+        },
+        {
+          "ORDER_ID": 12977,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 55250.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12978,
+        "ORDER_DATE_TIME": "2026-10-23T02:53:24Z",
+        "BILLING_DATE": "2026-10-23",
+        "BILLING_DOC": "INV-12978",
+        "CURRENCY": "USD",
+        "AMOUNT": 1927.68,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-10-23T02:53:24Z",
+        "UPDATED_DATE_TIME": "2026-10-23T02:53:24Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12978,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 963.84,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1927.68
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12979,
+        "ORDER_DATE_TIME": "2026-05-18T05:56:14Z",
+        "BILLING_DATE": "2026-05-18",
+        "BILLING_DOC": "INV-12979",
+        "CURRENCY": "INR",
+        "AMOUNT": 61750.0,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-18T05:56:14Z",
+        "UPDATED_DATE_TIME": "2026-05-18T05:56:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12979,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 61750.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12980,
+        "ORDER_DATE_TIME": "2026-11-06T19:51:33Z",
+        "BILLING_DATE": "2026-11-06",
+        "BILLING_DOC": "INV-12980",
+        "CURRENCY": "INR",
+        "AMOUNT": 453000.0,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-06T19:51:33Z",
+        "UPDATED_DATE_TIME": "2026-11-06T19:51:33Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12980,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 198000.0
+        },
+        {
+          "ORDER_ID": 12980,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 255000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12981,
+        "ORDER_DATE_TIME": "2026-09-22T18:22:50Z",
+        "BILLING_DATE": "2026-09-22",
+        "BILLING_DOC": "INV-12981",
+        "CURRENCY": "INR",
+        "AMOUNT": 806747.45,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-22T18:22:50Z",
+        "UPDATED_DATE_TIME": "2026-09-25T22:49:16Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12981,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 330000.0
+        },
+        {
+          "ORDER_ID": 12981,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 65000.0
+        },
+        {
+          "ORDER_ID": 12981,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 72250.0
+        },
+        {
+          "ORDER_ID": 12981,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 229497.45
+        },
+        {
+          "ORDER_ID": 12981,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 110000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12982,
+        "ORDER_DATE_TIME": "2026-10-04T12:04:14Z",
+        "BILLING_DATE": "2026-10-04",
+        "BILLING_DOC": "INV-12982",
+        "CURRENCY": "AUD",
+        "AMOUNT": 4909.05,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-04T12:04:14Z",
+        "UPDATED_DATE_TIME": "2026-10-04T12:04:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12982,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1636.35,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 4909.05
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12983,
+        "ORDER_DATE_TIME": "2026-06-14T14:45:27Z",
+        "BILLING_DATE": "2026-06-14",
+        "BILLING_DOC": "INV-12983",
+        "CURRENCY": "INR",
+        "AMOUNT": 643246.4,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-06-14T14:45:27Z",
+        "UPDATED_DATE_TIME": "2026-06-14T14:45:27Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12983,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 72000.0
+        },
+        {
+          "ORDER_ID": 12983,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 55250.0
+        },
+        {
+          "ORDER_ID": 12983,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 135998.3
+        },
+        {
+          "ORDER_ID": 12983,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 209000.0
+        },
+        {
+          "ORDER_ID": 12983,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 170998.1
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12984,
+        "ORDER_DATE_TIME": "2026-09-11T09:51:30Z",
+        "BILLING_DATE": "2026-09-11",
+        "BILLING_DOC": "INV-12984",
+        "CURRENCY": "GBP",
+        "AMOUNT": 2442.82,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-11T09:51:30Z",
+        "UPDATED_DATE_TIME": "2026-09-11T09:51:30Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12984,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 857.13,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 2442.82
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12985,
+        "ORDER_DATE_TIME": "2026-09-07T05:58:21Z",
+        "BILLING_DATE": "2026-09-07",
+        "BILLING_DOC": "INV-12985",
+        "CURRENCY": "INR",
+        "AMOUNT": 308800.0,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-07T05:58:21Z",
+        "UPDATED_DATE_TIME": "2026-09-07T05:58:21Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12985,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 64800.0
+        },
+        {
+          "ORDER_ID": 12985,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 65000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 117000.0
+        },
+        {
+          "ORDER_ID": 12985,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 55000.0
+        },
+        {
+          "ORDER_ID": 12985,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 72000.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12986,
+        "ORDER_DATE_TIME": "2026-06-11T22:54:58Z",
+        "BILLING_DATE": "2026-06-11",
+        "BILLING_DOC": "INV-12986",
+        "CURRENCY": "EUR",
+        "AMOUNT": 9665.52,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-06-11T22:54:58Z",
+        "UPDATED_DATE_TIME": "2026-06-11T22:54:58Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12986,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 611.11,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1222.22
+        },
+        {
+          "ORDER_ID": 12986,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 200.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 510.0
+        },
+        {
+          "ORDER_ID": 12986,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2666.64
+        },
+        {
+          "ORDER_ID": 12986,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1222.22,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3666.66
+        },
+        {
+          "ORDER_ID": 12986,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 800.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1600.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12987,
+        "ORDER_DATE_TIME": "2026-11-03T07:27:54Z",
+        "BILLING_DATE": "2026-11-03",
+        "BILLING_DOC": "INV-12987",
+        "CURRENCY": "USD",
+        "AMOUNT": 7891.52,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-03T07:27:54Z",
+        "UPDATED_DATE_TIME": "2026-11-03T07:27:54Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12987,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 216.87,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 650.61
+        },
+        {
+          "ORDER_ID": 12987,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2349.39
+        },
+        {
+          "ORDER_ID": 12987,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1084.33,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3252.99
+        },
+        {
+          "ORDER_ID": 12987,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 963.84,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1638.53
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12988,
+        "ORDER_DATE_TIME": "2026-10-15T18:04:10Z",
+        "BILLING_DATE": "2026-10-15",
+        "BILLING_DOC": "INV-12988",
+        "CURRENCY": "EUR",
+        "AMOUNT": 4574.98,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-10-15T18:04:10Z",
+        "UPDATED_DATE_TIME": "2026-10-15T18:04:10Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12988,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 611.11,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 519.44
+        },
+        {
+          "ORDER_ID": 12988,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 844.44
+        },
+        {
+          "ORDER_ID": 12988,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 944.44,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 3211.1
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12989,
+        "ORDER_DATE_TIME": "2026-05-26T12:42:14Z",
+        "BILLING_DATE": "2026-05-26",
+        "BILLING_DOC": "INV-12989",
+        "CURRENCY": "AUD",
+        "AMOUNT": 7672.73,
+        "CUSTOMER_ID": 107,
+        "COUNTRY_ID": 5,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-26T12:42:14Z",
+        "UPDATED_DATE_TIME": "2026-05-26T12:42:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 107,
+        "CUSTOMER_NAME": "Emma Taylor",
+        "COUNTRY_ID": 5,
+        "CITY": "Sydney",
+        "ADDRESS": "Parramatta, Sydney",
+        "PHN": "+6125550107",
+        "EMAIL": "emma@example.com",
+        "REGISTER_DATE": "2025-01-18",
+        "CREATED_DATE_TIME": "2025-01-18T12:00:00Z",
+        "UPDATED_DATE_TIME": "2026-06-19T08:25:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12989,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3000.0
+        },
+        {
+          "ORDER_ID": 12989,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 1181.82,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 4018.19
+        },
+        {
+          "ORDER_ID": 12989,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 327.27,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 654.54
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12990,
+        "ORDER_DATE_TIME": "2026-08-01T12:43:13Z",
+        "BILLING_DATE": "2026-08-01",
+        "BILLING_DOC": "INV-12990",
+        "CURRENCY": "USD",
+        "AMOUNT": 4337.34,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-08-01T12:43:13Z",
+        "UPDATED_DATE_TIME": "2026-08-01T12:43:13Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12990,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2349.39
+        },
+        {
+          "ORDER_ID": 12990,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 662.65,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1987.95
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12991,
+        "ORDER_DATE_TIME": "2026-11-04T14:44:41Z",
+        "BILLING_DATE": "2026-11-04",
+        "BILLING_DOC": "INV-12991",
+        "CURRENCY": "EUR",
+        "AMOUNT": 2686.1,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-11-04T14:44:41Z",
+        "UPDATED_DATE_TIME": "2026-11-04T14:44:41Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12991,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 844.44
+        },
+        {
+          "ORDER_ID": 12991,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 722.22,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1841.66
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12992,
+        "ORDER_DATE_TIME": "2026-05-11T05:20:30Z",
+        "BILLING_DATE": "2026-05-11",
+        "BILLING_DOC": "INV-12992",
+        "CURRENCY": "INR",
+        "AMOUNT": 1011198.0,
+        "CUSTOMER_ID": 106,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-05-11T05:20:30Z",
+        "UPDATED_DATE_TIME": "2026-05-11T05:20:30Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 106,
+        "CUSTOMER_NAME": "Sneha Kumar",
+        "COUNTRY_ID": 1,
+        "CITY": "Chennai",
+        "ADDRESS": "Adyar, Chennai",
+        "PHN": "9876543216",
+        "EMAIL": "sneha@example.com",
+        "REGISTER_DATE": "2025-07-08",
+        "CREATED_DATE_TIME": "2025-07-08T07:45:00Z",
+        "UPDATED_DATE_TIME": "2026-10-30T16:40:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12992,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 340000.0
+        },
+        {
+          "ORDER_ID": 12992,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 330000.0
+        },
+        {
+          "ORDER_ID": 12992,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 16200.0
+        },
+        {
+          "ORDER_ID": 12992,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 165000.0
+        },
+        {
+          "ORDER_ID": 12992,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 159998.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12993,
+        "ORDER_DATE_TIME": "2026-09-27T15:26:49Z",
+        "BILLING_DATE": "2026-09-27",
+        "BILLING_DOC": "INV-12993",
+        "CURRENCY": "GBP",
+        "AMOUNT": 2074.27,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-27T15:26:49Z",
+        "UPDATED_DATE_TIME": "2026-09-27T15:26:49Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12993,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 857.13,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 771.42
+        },
+        {
+          "ORDER_ID": 12993,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 685.71,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1302.85
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12994,
+        "ORDER_DATE_TIME": "2026-09-20T04:57:14Z",
+        "BILLING_DATE": "2026-09-20",
+        "BILLING_DOC": "INV-12994",
+        "CURRENCY": "EUR",
+        "AMOUNT": 10722.16,
+        "CUSTOMER_ID": 105,
+        "COUNTRY_ID": 4,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-20T04:57:14Z",
+        "UPDATED_DATE_TIME": "2026-09-20T04:57:14Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 105,
+        "CUSTOMER_NAME": "Michael Brown",
+        "COUNTRY_ID": 4,
+        "CITY": "Berlin",
+        "ADDRESS": "Mitte, Berlin",
+        "PHN": "+49305550105",
+        "EMAIL": "michael@example.com",
+        "REGISTER_DATE": "2025-06-25",
+        "CREATED_DATE_TIME": "2025-06-25T13:15:00Z",
+        "UPDATED_DATE_TIME": "2026-07-22T09:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12994,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 722.22,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2888.88
+        },
+        {
+          "ORDER_ID": 12994,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 611.11,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1833.33
+        },
+        {
+          "ORDER_ID": 12994,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 999.99,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 3599.96
+        },
+        {
+          "ORDER_ID": 12994,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 888.88,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 799.99
+        },
+        {
+          "ORDER_ID": 12994,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 800.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1600.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12995,
+        "ORDER_DATE_TIME": "2026-06-26T22:44:50Z",
+        "BILLING_DATE": "2026-06-26",
+        "BILLING_DOC": "INV-12995",
+        "CURRENCY": "INR",
+        "AMOUNT": 458994.6,
+        "CUSTOMER_ID": 108,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-26T22:44:50Z",
+        "UPDATED_DATE_TIME": "2026-06-26T22:44:50Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 108,
+        "CUSTOMER_NAME": "Arjun Rao",
+        "COUNTRY_ID": 1,
+        "CITY": "Pune",
+        "ADDRESS": "Kothrud, Pune",
+        "PHN": "9876543218",
+        "EMAIL": "arjun@example.com",
+        "REGISTER_DATE": "2025-08-19",
+        "CREATED_DATE_TIME": "2025-08-19T09:10:00Z",
+        "UPDATED_DATE_TIME": "2026-11-02T12:00:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12995,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 242997.3
+        },
+        {
+          "ORDER_ID": 12995,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 215997.3
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12996,
+        "ORDER_DATE_TIME": "2026-08-24T18:29:23Z",
+        "BILLING_DATE": "2026-08-24",
+        "BILLING_DOC": "INV-12996",
+        "CURRENCY": "INR",
+        "AMOUNT": 790496.2,
+        "CUSTOMER_ID": 102,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-08-24T18:29:23Z",
+        "UPDATED_DATE_TIME": "2026-08-24T18:29:23Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 102,
+        "CUSTOMER_NAME": "Priya Reddy",
+        "COUNTRY_ID": 1,
+        "CITY": "Bangalore",
+        "ADDRESS": "Indiranagar, Bangalore",
+        "PHN": "9876543211",
+        "EMAIL": "priya@example.com",
+        "REGISTER_DATE": "2025-05-02",
+        "CREATED_DATE_TIME": "2025-05-02T08:45:00Z",
+        "UPDATED_DATE_TIME": "2026-09-15T11:20:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12996,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 85000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 144500.0
+        },
+        {
+          "ORDER_ID": 12996,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 89999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 256497.15
+        },
+        {
+          "ORDER_ID": 12996,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 75999.05
+        },
+        {
+          "ORDER_ID": 12996,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 110000.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 313500.0
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12997,
+        "ORDER_DATE_TIME": "2026-06-08T07:07:09Z",
+        "BILLING_DATE": "2026-06-08",
+        "BILLING_DOC": "INV-12997",
+        "CURRENCY": "USD",
+        "AMOUNT": 11389.13,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "SHIPPED",
+        "CREATED_DATE_TIME": "2026-06-08T07:07:09Z",
+        "UPDATED_DATE_TIME": "2026-06-08T07:07:09Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12997,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 867.47,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 780.72
+        },
+        {
+          "ORDER_ID": 12997,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1331.32
+        },
+        {
+          "ORDER_ID": 12997,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 1024.1,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2048.2
+        },
+        {
+          "ORDER_ID": 12997,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1084.33,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3252.99
+        },
+        {
+          "ORDER_ID": 12997,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1325.3,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3975.9
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12998,
+        "ORDER_DATE_TIME": "2026-09-17T20:47:02Z",
+        "BILLING_DATE": "2026-09-17",
+        "BILLING_DOC": "INV-12998",
+        "CURRENCY": "GBP",
+        "AMOUNT": 8600.46,
+        "CUSTOMER_ID": 104,
+        "COUNTRY_ID": 3,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-17T20:47:02Z",
+        "UPDATED_DATE_TIME": "2026-09-17T20:47:02Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 104,
+        "CUSTOMER_NAME": "David Wilson",
+        "COUNTRY_ID": 3,
+        "CITY": "London",
+        "ADDRESS": "Camden, London",
+        "PHN": "02079460104",
+        "EMAIL": "david@example.com",
+        "REGISTER_DATE": "2025-03-12",
+        "CREATED_DATE_TIME": "2025-03-12T10:00:00Z",
+        "UPDATED_DATE_TIME": "2026-10-01T15:30:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12998,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2008,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 809.52,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1619.04
+        },
+        {
+          "ORDER_ID": 12998,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1047.62,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 3142.86
+        },
+        {
+          "ORDER_ID": 12998,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 4,
+          "UNIT_PRICE": 171.43,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 617.15
+        },
+        {
+          "ORDER_ID": 12998,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 619.05,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 1764.29
+        },
+        {
+          "ORDER_ID": 12998,
+          "ORDER_ITEM_ID": 5,
+          "PRODUCT_ID": 2003,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 857.13,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 1457.12
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 12999,
+        "ORDER_DATE_TIME": "2026-09-15T10:03:03Z",
+        "BILLING_DATE": "2026-09-15",
+        "BILLING_DOC": "INV-12999",
+        "CURRENCY": "USD",
+        "AMOUNT": 7746.98,
+        "CUSTOMER_ID": 103,
+        "COUNTRY_ID": 2,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-15T10:03:03Z",
+        "UPDATED_DATE_TIME": "2026-09-15T10:03:03Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 103,
+        "CUSTOMER_NAME": "John Smith",
+        "COUNTRY_ID": 2,
+        "CITY": "New York",
+        "ADDRESS": "Manhattan, New York",
+        "PHN": "2125550103",
+        "EMAIL": "john@example.com",
+        "REGISTER_DATE": "2025-02-20",
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z",
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 12999,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 867.47,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 2602.41
+        },
+        {
+          "ORDER_ID": 12999,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2004,
+          "QUANTITY": 3,
+          "UNIT_PRICE": 1325.3,
+          "DISCOUNT_%": 10.0,
+          "LINE_AMOUNT": 3578.31
+        },
+        {
+          "ORDER_ID": 12999,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2005,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 783.13,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 1566.26
+        }
+      ]
+    },
+    {
+      "ORDER": {
+        "ORDERID": 13000,
+        "ORDER_DATE_TIME": "2026-09-16T08:12:51Z",
+        "BILLING_DATE": "2026-09-16",
+        "BILLING_DOC": "INV-13000",
+        "CURRENCY": "INR",
+        "AMOUNT": 271399.05,
+        "CUSTOMER_ID": 101,
+        "COUNTRY_ID": 1,
+        "ORDER_STATUS": "COMPLETED",
+        "CREATED_DATE_TIME": "2026-09-16T08:12:51Z",
+        "UPDATED_DATE_TIME": "2026-09-16T08:12:51Z"
+      },
+      "CUSTOMER": {
+        "CUSTOMER_ID": 101,
+        "CUSTOMER_NAME": "Rahul Sharma",
+        "COUNTRY_ID": 1,
+        "CITY": "Hyderabad",
+        "ADDRESS": "Madhapur, Hyderabad",
+        "PHN": "9876543210",
+        "EMAIL": "rahul@example.com",
+        "REGISTER_DATE": "2025-04-15",
+        "CREATED_DATE_TIME": "2025-04-15T09:30:00Z",
+        "UPDATED_DATE_TIME": "2026-10-28T12:15:00Z"
+      },
+      "ORDER_ITEMS": [
+        {
+          "ORDER_ID": 13000,
+          "ORDER_ITEM_ID": 1,
+          "PRODUCT_ID": 2002,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 55000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 55000.0
+        },
+        {
+          "ORDER_ID": 13000,
+          "ORDER_ITEM_ID": 2,
+          "PRODUCT_ID": 2007,
+          "QUANTITY": 2,
+          "UNIT_PRICE": 72000.0,
+          "DISCOUNT_%": 15.0,
+          "LINE_AMOUNT": 122400.0
+        },
+        {
+          "ORDER_ID": 13000,
+          "ORDER_ITEM_ID": 3,
+          "PRODUCT_ID": 2001,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 79999.0,
+          "DISCOUNT_%": 5.0,
+          "LINE_AMOUNT": 75999.05
+        },
+        {
+          "ORDER_ID": 13000,
+          "ORDER_ITEM_ID": 4,
+          "PRODUCT_ID": 2006,
+          "QUANTITY": 1,
+          "UNIT_PRICE": 18000.0,
+          "DISCOUNT_%": 0.0,
+          "LINE_AMOUNT": 18000.0
+        }
+      ]
+    }
+  ]
+}
