@@ -1,1 +1,193 @@
-{   "pagination": { "page": 1,"page_size": 100,"total_records": 2,"total_pages": 1,"has_next": false,"next_page": null  },   "data": [ {  "ORDER": {    "OrderID": 1002,    "OrderDateTime": "2026-11-12T12:00:00Z",    "OrderUpdatedDate": "2026-11-15T08:30:00Z",    "OrderStatus": "Confirmed",    "Currency": "USD",    "TotalAmount": 950  },  "CUSTOMER": {    "CustomerID": 502,    "CustomerName": "John Smith",    "Country": "USA"  },  "ORDER_ITEMS": [    {      "ProductID": 201,      "ProductName": "Laptop",      "Quantity": 1,      "UnitPrice": 950    }  ]},{  "ORDER": {    "OrderID": 1004,    "OrderDateTime": "2026-11-15T08:45:00Z",    "OrderUpdatedDate": "2026-11-15T08:45:00Z",    "OrderStatus": "New",    "Currency": "USD",    "TotalAmount": 700  },  "CUSTOMER": {    "CustomerID": 504,    "CustomerName": "Sarah Wilson",    "Country": "UK"  },  "ORDER_ITEMS": [    {      "ProductID": 202,      "ProductName": "Monitor",      "Quantity": 2,      "UnitPrice": 350    }  ]}  ] }
+{ 
+
+  "pagination": { 
+
+    "page": 1, 
+
+    "page_size": 100, 
+
+    "total_records": 2, 
+
+    "total_pages": 1, 
+
+    "has_next": false, 
+
+    "next_page": null 
+
+  }, 
+
+  "data": [ 
+
+    { 
+
+      "ORDER": { 
+
+        "ORDERID": 10001, 
+
+        "ORDER_DATE_TIME": "2026-05-10T05:51:47Z", 
+
+        "BILLING_DATE": "2026-05-10", 
+
+        "BILLING_DOC": "INV-10001", 
+
+        "CURRENCY": "USD", 
+
+        "AMOUNT": 9500.00, 
+
+        "CUSTOMER_ID": 103, 
+
+        "COUNTRY_ID": 2, 
+
+        "ORDER_STATUS": "COMPLETED", 
+
+        "CREATED_DATE_TIME": "2026-05-10T05:51:47Z", 
+
+        "UPDATED_DATE_TIME": "2026-11-15T08:30:00Z" 
+
+      }, 
+
+      "CUSTOMER": { 
+
+        "CUSTOMER_ID": 103, 
+
+        "CUSTOMER_NAME": "John Smith", 
+
+        "COUNTRY_ID": 2, 
+
+        "CITY": "New York", 
+
+        "ADDRESS": "Manhattan, New York", 
+
+        "PHN": "2125550103", 
+
+        "EMAIL": "john@example.com", 
+
+        "REGISTER_DATE": "2025-02-20", 
+
+        "CREATED_DATE_TIME": "2025-02-20T14:00:00Z", 
+
+        "UPDATED_DATE_TIME": "2026-08-11T10:10:00Z" 
+
+      }, 
+
+      "ORDER_ITEMS": [ 
+
+        { 
+
+          "ORDER_ID": 10001, 
+
+          "ORDER_ITEM_ID": 1, 
+
+          "PRODUCT_ID": 2005, 
+
+          "QUANTITY": 3, 
+
+          "UNIT_PRICE": 783.13, 
+
+          "DISCOUNT_%": 0.0, 
+
+          "LINE_AMOUNT": 2349.39 
+
+        }, 
+
+        { 
+
+          "ORDER_ID": 10001, 
+
+          "ORDER_ITEM_ID": 2, 
+
+          "PRODUCT_ID": 2008, 
+
+          "QUANTITY": 1, 
+
+          "UNIT_PRICE": 1024.1, 
+
+          "DISCOUNT_%": 10.0, 
+
+          "LINE_AMOUNT": 921.69 
+
+        } 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "ORDER": { 
+
+        "ORDERID": 10051, 
+
+        "ORDER_DATE_TIME": "2026-11-15T08:45:00Z", 
+
+        "BILLING_DATE": "2026-11-15", 
+
+        "BILLING_DOC": "INV-10051", 
+
+        "CURRENCY": "USD", 
+
+        "AMOUNT": 1500.00, 
+
+        "CUSTOMER_ID": 105, 
+
+        "COUNTRY_ID": 2, 
+
+        "ORDER_STATUS": "NEW", 
+
+        "CREATED_DATE_TIME": "2026-11-15T08:45:00Z", 
+
+        "UPDATED_DATE_TIME": "2026-11-15T08:45:00Z" 
+
+      }, 
+
+      "CUSTOMER": { 
+
+        "CUSTOMER_ID": 105, 
+
+        "CUSTOMER_NAME": "Sarah Wilson", 
+
+        "COUNTRY_ID": 2, 
+
+        "CITY": "Boston", 
+
+        "ADDRESS": "Boston, Massachusetts", 
+
+        "PHN": "6175550105", 
+
+        "EMAIL": "sarah@example.com", 
+
+        "REGISTER_DATE": "2026-11-15", 
+
+        "CREATED_DATE_TIME": "2026-11-15T08:45:00Z", 
+
+        "UPDATED_DATE_TIME": "2026-11-15T08:45:00Z" 
+
+      }, 
+
+      "ORDER_ITEMS": [ 
+
+        { 
+
+          "ORDER_ID": 10051, 
+
+          "ORDER_ITEM_ID": 1, 
+
+          "PRODUCT_ID": 2009, 
+
+          "QUANTITY": 2, 
+
+          "UNIT_PRICE": 750.00, 
+
+          "DISCOUNT_%": 0.0, 
+
+          "LINE_AMOUNT": 1500.00 
+
+        } 
+
+      ] 
+
+    } 
+
+  ] 
+
+}
